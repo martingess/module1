@@ -121,15 +121,15 @@
     }
 
     .primary-nav {
-        max-height: 0;
-        max-width: 0;
+        height: 0;
+        width: 0;
         font-size: 0;
         display: flex;
         flex-flow: column;
         position: absolute;
         top: 93%;
-        z-index: 1;
-        transition: max-height 1s, max-width 1s, font-size 0.5s;
+        z-index: 2;
+        transition: height 1s, width 1s, font-size 0.5s;
     }
 
     .primary-nav > li {
@@ -137,8 +137,8 @@
     }
 
     #burger-menu-checkbox:checked ~ ul{
-        max-width: 320px;
-        max-height: 500px;
+        width: 320px;
+        height: 500px;
         font-size: 1rem;
         background: #0f941a;
         width: 100%;
