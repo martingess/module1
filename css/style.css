@@ -545,7 +545,7 @@ body {
 }
 
 .aside__input--medium {
-    min-width: 120px;
+    width: 120px;
     margin-right: 11px;
 }
 
@@ -642,6 +642,7 @@ body {
     border-radius: 5px;
     border: 1px solid #867b6b;
     padding-left: 15px;
+    font-family: inherit;
 
     color: #fff;
     text-transform: uppercase;
